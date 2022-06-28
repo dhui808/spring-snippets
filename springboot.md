@@ -16,4 +16,19 @@
         <scope>provided</scope>
     </dependency>
   
+  Inherit main spring-boot application class from SpringBootServletInitializer and override SpringApplicationBuilder 
+  configure(SpringApplicationBuilder) method.
+    @SpringBootApplication
+    public class DemoApplication extends SpringBootServletInitializer {
+
+        public static void main(String[] args) {
+            SpringApplication.run(DemoApplication.class, args);
+        }
+
+        @Override
+        protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
+            return builder.sources(DemoApplication.class);
+        }
+    }
+  
 ### How will you deploy your spring boot application?
