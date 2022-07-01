@@ -33,7 +33,7 @@
   
 ### How will you deploy your spring boot application?
 ###  @ConfigurationProperties
-  Spring Boot @ConfigurationProperties allows developer to map the entire .properties and yaml file into an object easily.
+  Spring Boot @ConfigurationProperties allows developer to map the entire .properties and yaml file into an object easily.  
   use the @Value to inject the .properties value one by one
   
   
