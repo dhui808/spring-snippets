@@ -1,0 +1,1 @@
+![Spring MVC](https://docs.spring.io/spring-framework/docs/3.0.0.M4/spring-framework-reference/html/images/mvc.png)
