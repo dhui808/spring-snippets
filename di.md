@@ -1,4 +1,4 @@
-### types of Dependency Injection Configurations. 
+### Types of Dependency Injection Configurations. 
   There are two different ways of Dependency Injection Configurations.
 
     XML based Configuration
