@@ -45,6 +45,10 @@
   
 ### How will you deploy your spring boot application?
   
+    Deploying in Java Archive (JAR) as a standalone application,
+    Deploying as Web Application Archive (WAR) into a servlet container,
+    Deploying in Docker Container
+  
 ###  @ConfigurationProperties
   Spring Boot @ConfigurationProperties allows developer to map the entire .properties and yaml file into an object easily.  
   use the @Value to inject the .properties value one by one
