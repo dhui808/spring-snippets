@@ -4,6 +4,16 @@
   
     <packaging>jar</packaging>
   
+  The main Spring boot application:
+    @SpringBootApplication
+    public class ControlleradviceApplication {
+
+      public static void main(String[] args) {
+        SpringApplication.run(ControlleradviceApplication.class, args);
+      }
+
+    }
+  
   Spring Boot can also be told to produce a WAR file, in which case you'll likely choose to deploy it to a web container
   such as Tomcat or Jetty.
   Add these lines to your pom.xml file:
