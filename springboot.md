@@ -50,14 +50,14 @@
     Deploying in Docker Container
   
 ### Spring Boot Annotation 
-  @SprinbBootApplication:
-  This single annotation combines three annotations:
-    @Configuration
-    @EnableAutoConfiguration
-    @ComponentScan.
+    @SprinbBootApplication:
+    This single annotation combines three annotations:
+      @Configuration
+      @EnableAutoConfiguration
+      @ComponentScan.
 
-  @ConfigurationProperties
-  Spring Boot @ConfigurationProperties allows developer to map the entire .properties and yaml file into an object easily.  
-  use the @Value to inject the .properties value one by one
+    @ConfigurationProperties
+    Spring Boot @ConfigurationProperties allows developer to map the entire .properties and yaml file into an object easily.  
+    use the @Value to inject the .properties value one by one
   
   
