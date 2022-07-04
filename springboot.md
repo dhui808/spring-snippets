@@ -49,7 +49,14 @@
     Deploying as Web Application Archive (WAR) into a servlet container,
     Deploying in Docker Container
   
-###  @ConfigurationProperties
+### Spring Boot Annotation 
+  @SprinbBootApplication:
+  This single annotation combines three annotations:
+    @Configuration
+    @EnableAutoConfiguration
+    @ComponentScan.
+
+  @ConfigurationProperties
   Spring Boot @ConfigurationProperties allows developer to map the entire .properties and yaml file into an object easily.  
   use the @Value to inject the .properties value one by one
   
