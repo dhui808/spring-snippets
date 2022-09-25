@@ -1,10 +1,3 @@
-### spring-boot-maven-plugin issue
-  This plugin causes problems for multi-module projects, since it treats child modules as regular dependencies,
-  which are pulled from the local Maven repo instead of the child modules inside STS, which results in debugging
-  problem since no source code is attached to the dependencies in Maven repo. The breaking points won't work.
-  
-  Solution: Remove spring-boot-maven-plugin from pom.xml
-  
 ### STS-4.3.2 issues
 Project structure:  
 
