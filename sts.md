@@ -1,3 +1,6 @@
+### In a multi-module project, child modules are shown as jar libraries instead of subprojects in STS/Eclipse
+Most like there are configuration/code errors in either parent or child modules
+
 ### STS-4.3.2 issues
 Project structure:  
 
