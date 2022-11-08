@@ -7,3 +7,7 @@
       of using ResponseExtractor callback.
     postForEntity: calls execute themselves under the hood - it's simply a matter of convenience
     
+### Timeout
+    When the request gets timed out, Spring will throw ResourceAccessException. Underlying exception under that instance 
+    will be java.net.SocketTimeoutException.
+    
