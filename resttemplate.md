@@ -8,6 +8,10 @@
     postForEntity: calls execute themselves under the hood - it's simply a matter of convenience
     
 ### Timeout
-    When the request gets timed out, Spring will throw ResourceAccessException. Underlying exception under that instance 
+    1. Read timeout: When the request gets read timed out, Spring will throw ResourceAccessException. Underlying exception 
     will be java.net.SocketTimeoutException.
+    2. Connect timeout: When the request gets connect timed out, Spring will throw ResourceAccessException. Underlying 
+    exception is org.apache.http.conn.HttpHostConnectException
+    3. When SSL certificate is expired, Spring will throw ResourceAccessException. Underlying exception is 
+    javax.net.ssl.SSLHandshakeException
     
