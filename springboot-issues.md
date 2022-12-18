@@ -34,4 +34,9 @@
         ERROR in ch.qos.logback.classic.pattern.LoggerConverter@18cebaa5 - failed to parse integer string [1.] java.lang
         .NumberFormatException: For input string: "1."
         at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:251)
+### Lombok issue Dec. 18, 2022
+    Springboot 3.0.0 with Lombak 1.18.24 does not work
+        @Data is not enough. have to add @AllArgsConstructor and @NoArgsConstructor
+        (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or 
+        property-based Creator)
         
