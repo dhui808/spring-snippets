@@ -31,7 +31,7 @@
 ### Logback issue Dec. 18, 2022
     Springboot 2.7.6 with Logback 1.2.11 works fine
     Springboot 3.0.0 with Logback 1.4.5 does not work:
-        ERROR in ch.qos.logback.classic.pattern.LoggerConverter@18cebaa5 - failed to parse integer string [1.] java.lang
+		ERROR in ch.qos.logback.classic.pattern.LoggerConverter@18cebaa5 - failed to parse integer string [1.] java.lang
 		.NumberFormatException: For input string: "1."
 		at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:251)
         
