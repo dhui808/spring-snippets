@@ -2,9 +2,9 @@ ThreadPoolExecutor.runWorker
 NioEndpoint.SocketProcessor.run  
 SocketProcessorBase.run  
 NioEndpoint.doRun  
-AbstractProtocol.ConnectionHandler.process(SocketWrapperBase<S> wrapper, SocketEvent status)  
+AbstractProtocol.ConnectionHandler.process(SocketWrapperBase wrapper, SocketEvent status)  
 AbstractProcessorLight.process  
-Http11Processor.service(SocketWrapperBase<?> socketWrapper)  
+Http11Processor.service(SocketWrapperBase socketWrapper)  
 CoyoteAdapter.service(org.apache.coyote.Request req, org.apache.coyote.Response res)  
 StandardWrapperValve.invoke(Request request, Response response)  
 ApplicationFilterChain.doFilter  
