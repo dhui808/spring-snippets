@@ -40,3 +40,6 @@
         (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or 
         property-based Creator)
         
+### spring.cloud.circuitbreaker.resilience4j.enabled
+    It has no effect, whether it is set to true or false
+    
