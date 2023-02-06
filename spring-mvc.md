@@ -39,3 +39,6 @@
 
     @ResponseStatus: used to override the HTTP response code for a response. You can use this annotation for error handling method.
     
+### Types of Method Arguments that that can be used in controllers as input arguments
+    https://docs.spring.io/spring-framework/docs/current/reference/html/web.html#mvc-ann-arguments
+    
