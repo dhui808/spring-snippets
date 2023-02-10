@@ -31,7 +31,8 @@
     }
 
     The SecurityConfig class extends KeycloakWebSecurityConfigurerAdapter to enable Keycloak for authentication. 
-    The configureGlobal method configures Keycloak as the authentication provider and maps the Keycloak roles to Spring Security authorities.
+    The configureGlobal method configures Keycloak as the authentication provider and maps the Keycloak roles to 
+    Spring Security authorities.
 
     The KeycloakConfigResolver bean is used to resolve the Keycloak configuration. The sessionAuthenticationStrategy bean 
     is used to register the Keycloak authentication session.
