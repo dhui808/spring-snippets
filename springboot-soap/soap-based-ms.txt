@@ -1,0 +1,16 @@
+@SpringBootApplication
+@EnableWs
+public class SoapMicroserviceApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(SoapMicroserviceApplication.class, args);
+    }
+}
+
+@WebService
+public class CalculatorService {
+    @WebMethod
+    public int add(@WebParam(name = "a") int a, @WebParam(name = "b") int b) {
+        return a + b;
+    }
+}
+
