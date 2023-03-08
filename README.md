@@ -11,3 +11,10 @@
 ### spring-boot-dependencies
     spring-boot-dependencies does not load some dependencies, e.g. httpclient. Maven or Springboot issue?
     
+### How does Spring determine which packages should be scanned to resolve all dependencies?
+    Spring uses a combination of default conventions and  @ComponentScan annotation.
+    
+    By default, Spring will scan all packages and sub-packages under the package where the @SpringBootApplication annotation is defined.
+    
+    Alternatively, the @ComponentScan annotation can be used to specify the packages to be scanned.
+    
