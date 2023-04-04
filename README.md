@@ -1,6 +1,6 @@
 # spring-snippets
 ### Resources
-	[Dependency Versions](https://docs.spring.io/spring-boot/docs/current/reference/html/dependency-versions.html)
+[Dependency Versions](https://docs.spring.io/spring-boot/docs/current/reference/html/dependency-versions.html)
 
 ### Common Application Properties
 [Common Application Properties](https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html)  
@@ -19,3 +19,5 @@
     
     Alternatively, the @ComponentScan annotation can be used to specify the packages to be scanned.
     
+### parameter-0-of-constructor-in-required-a-bean-type-of-spring-boot
+	Could be caused the missing/incorrect configuration that causes a dependency not being instantiated.
