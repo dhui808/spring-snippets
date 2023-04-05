@@ -36,10 +36,10 @@
     @EnableConfigurationProperties(CustomerProperties.class)
     public class MyConfiguration {
 
-    @Autowired
-    CustomerProperties customer;
+      @Autowired
+      CustomerProperties customer;
 
-    public CustomerProperties getCustomer() {
-      return customer;
+      public CustomerProperties getCustomer() {
+        return customer;
+      }
     }
-  }
