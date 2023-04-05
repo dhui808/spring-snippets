@@ -27,14 +27,14 @@
   generate bean definitions.
   
 ### @EnableConfigurationProperties registers as a Spring bean a POJO annotated with @ConfigurationProperties
-  @ConfigurationProperties("customer")
-  public class CustomerProperties {
-    ...
-  }
-  
-  @Configuration
-  @EnableConfigurationProperties(CustomerProperties.class)
-  public class MyConfiguration {
+    @ConfigurationProperties("customer")
+    public class CustomerProperties {
+      ...
+    }
+
+    @Configuration
+    @EnableConfigurationProperties(CustomerProperties.class)
+    public class MyConfiguration {
 
     @Autowired
     CustomerProperties customer;
