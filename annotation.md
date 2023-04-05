@@ -26,3 +26,20 @@
   Indicates that a class declares one or more @Bean methods and may be processed by the Spring container to 
   generate bean definitions.
   
+### @EnableConfigurationProperties registers as a Spring bean a POJO annotated with @ConfigurationProperties
+  @ConfigurationProperties("customer")
+  public class CustomerProperties {
+    ...
+  }
+  
+  @Configuration
+  @EnableConfigurationProperties(CustomerProperties.class)
+  public class MyConfiguration {
+
+    @Autowired
+    CustomerProperties customer;
+
+    public CustomerProperties getCustomer() {
+      return customer;
+    }
+  }
