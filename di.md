@@ -26,6 +26,6 @@
       throw new ApplicationException("Unsupported database:" + args[0]);
     }
   
-  Either way, one ask the question: "Is it the Oracle database?" only once, at the application startup time.
+  Either way, one asks the question: "Is it the Oracle database?" only once, at the application startup time.
   
   
