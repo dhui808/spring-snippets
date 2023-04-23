@@ -1,3 +1,6 @@
+### Override application configuration through command line
+    java -jar myapp.jar --server.port=8080
+    
 ### differences-between-jar-and-war-in-spring-boot
   Spring Boot can be told to produce a 'fat JAR' which includes all of your module/service's dependencies and can be 
   run with java -jar <your jar>.
