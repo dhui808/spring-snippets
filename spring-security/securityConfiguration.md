@@ -15,4 +15,7 @@
 		return http.build();
 	}
 
+### No Spring Bean of type SecurityFilterChain 
+	Same effects as above.
+
 ### 
