@@ -21,3 +21,19 @@
     
 ### parameter-0-of-constructor-in-required-a-bean-type-of-spring-boot
 	Could be caused the missing/incorrect configuration that causes a dependency not being instantiated.
+
+### How does Spring Boot refresh when external properties change
+	Use @RefreshScope on the Spring beans that depend on certain external configuration
+ 	Enable the /refresh endpoint: 
+  	management.endpoints.web.exposure.include=*
+	Use Spring Cloud Config Server:
+	spring.config.import=optional:configserver:http://localhost:8888/
+
+	In SCCS config, specify the git url of the perperties file repo:
+ 	spring.cloud.config.server.git.uri=https://github.com/mygithubid/mypropertiesrepo.git
+	Or:
+ 	spring.cloud.config.server.git.uri=file:///Desktop/config
+  
+ 	Invokes the Actuator’s refresh command:
+	curl localhost:8080/actuator/refresh -d {} -H "Content-Type: application/json"
+  
