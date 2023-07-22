@@ -36,4 +36,12 @@
   
  	Invokes the Actuator’s refresh command:
 	curl localhost:8080/actuator/refresh -d {} -H "Content-Type: application/json"
-  
+### Logging Headers/Body With Apache HttpClient
+	<dependency>
+	    <groupId>org.apache.httpcomponents</groupId>
+	    <artifactId>httpclient</artifactId>
+	</dependency>
+
+	RestTemplate restTemplate = new RestTemplate();
+	restTemplate.setRequestFactory(new HttpComponentsClientHttpRequestFactory());
+
