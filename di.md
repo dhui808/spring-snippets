@@ -28,4 +28,7 @@
 
 	Either way, one asks the question: "Is it the Oracle database?" only once, at the application startup time.
   
+### Dependency for custom annotation
+	Spring won't scan the classess annotated with custom annotations. One can add @Service, @Component, etc., to make
+ 	those classes the DI target.
   
