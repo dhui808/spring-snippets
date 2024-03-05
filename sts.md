@@ -21,3 +21,9 @@ In contrast, Eclipse jee-2022-06 does not create Maven repo for this project.
 Also the project structure is displayed differently in Eclipse jee-2022-06
 
 ![Project structure](images/eclipse-jee-2022-06.png)
+
+### STS-Eclispe-JDK issue
+    Fail to start Spring Boot MS
+    https://bugs.eclipse.org/bugs/show_bug.cgi?id=562074
+    https://github.com/spring-projects/sts4/issues/434
+    
