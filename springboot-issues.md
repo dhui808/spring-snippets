@@ -1,3 +1,7 @@
+## Cannot use profile name with dash '-'
+    mobile-local does not work (JDK problem?). Have to use local
+    application-local.properties instead of application-mobile-local.properties
+    
 ## spring.main.allow-bean-definition-overriding
     What is the theory behind this property?
     
