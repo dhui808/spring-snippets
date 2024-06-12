@@ -1,3 +1,7 @@
+### Use custom Springboot logback config file name logback-local.xml in local
+    Eclipse vm arguments:
+    -Dlogging.config=classpath:logback-local.xml
+    
 ### Override application configuration through command line
     java -jar myapp.jar --server.port=8080
     
