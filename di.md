@@ -32,3 +32,16 @@
 	Spring won't scan the classess annotated with custom annotations. One can add @Service, @Component, etc., to make
  	those classes the DI target.
   
+### Circular dependency
+	If Service1 and Service2 depends on each other, we can have constructor dependency injection for Service1 - 
+	for example use Lombok @AllArgsConstructor. For Service2, use set dependency injection:
+	@Service
+	public class Service2 {
+		private Service1 service1;
+
+		@Autowired
+		public setService1(Service1 service1) {
+			this.service1 = service1;
+		}
+	}
+	
